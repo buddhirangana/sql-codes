@@ -1,1 +1,1 @@
-# sql-codes
+# SQL Queries
