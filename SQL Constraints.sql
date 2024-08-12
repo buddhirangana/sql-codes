@@ -20,7 +20,6 @@ FOREIGN KEY - Prevents actions that would destroy links between tables
 CHECK - Ensures that the values in a column satisfies a specific condition
 DEFAULT - Sets a default value for a column if no value is specified
 
-
 --------------------------------------------------------------------------------------------------
 				SQL NOT NULL Constraint
 ---------------------------------------------------------------------------------------------------
@@ -31,7 +30,6 @@ The NOT NULL constraint enforces a column to NOT accept NULL values.
 
 This enforces a field to always contain a value, which means that you cannot insert a new record, 
 or update a record without adding a value to this field.
-
 
 
 CREATE TABLE Employee (
@@ -232,7 +230,7 @@ UPDATE Musician SET Rank = default  where MuscianID = 24 ;
 		from Musician
 		where Country = 'SriLanka';
 
---c)	List all musicians those who have a rank less than to 4 or category is “Classical’.
+--c)	List all musicians those who have a rank less than to 4 or category is Â“ClassicalÂ’.
 		select * 
 		from Musician
 		where rank < 4 AND Category ='Classical'; 
